@@ -26,5 +26,8 @@ postgres=# grant all privileges on database test_bd to info_comp;
 ##  список баз данных
  \l
  ## выход в консоль
- \q
+  \q
+ # Подключение к базе данных от пользователя info_comp
+ psql -h localhost test_db info_comp
+ 
  
