@@ -12,5 +12,10 @@ systemctl restart postgresql
 
 # получить доступ к psqlтерминалу как пользователь «postgres»
 sudo -u postgres psql
+или
+su - postgres
+psql
+## после того как вошли можем задать пароль Для пользователя postqres
+\password postgres
 #  список баз данных
  \l
