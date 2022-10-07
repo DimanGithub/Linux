@@ -16,6 +16,8 @@ sudo -u postgres psql
 su - postgres
 psql
 ## после того как вошли можем задать пароль Для пользователя postqres
-\password postgres
+postgres=# \password postgres
+## Создание нового пользователя с паролем
+postgres=# Create user info_comp with password '123456';
 #  список баз данных
  \l
