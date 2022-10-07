@@ -30,4 +30,7 @@ postgres=# grant all privileges on database test_bd to info_comp;
  # Подключение к базе данных от пользователя info_comp
  psql -h localhost test_db info_comp
  
+ # перезапуск базы данных
+ Root~# systemctl restart postgresql
+ 
  
