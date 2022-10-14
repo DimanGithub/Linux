@@ -5,7 +5,8 @@ psql --version
 systemctl status postgesql
 
 # открыть файл для настройки 
-sudo nano /etc/postgresql/13/main/postgresql.conf
+sudo nano /etc/postgresql/12/main/postgresql.conf
+sudo nano /etc/postgresql/12/main/pg_hba.conf
 
 # перезапуск службы POStgresql
 systemctl restart postgresql
